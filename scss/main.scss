@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
 
 // Import vendor styles
-@import 'vendor/_normalize.css';
-@import 'vendor/_skeleton.css';
+@import 'vendor/_normalize.scss';
+@import 'vendor/_skeleton.scss';
 
 // Import custom scss
 @import 'custom/_typography';
