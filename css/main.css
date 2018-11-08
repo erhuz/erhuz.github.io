@@ -1025,7 +1025,6 @@ main .container, footer .container {
 
 main .flex-items-default, footer .flex-items-default {
   width: 300px;
-  height: 250px;
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
