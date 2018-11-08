@@ -1,0 +1,26 @@
+main{
+    /* Mobile first queries */
+
+    .profile_img{
+        width: 250px;
+        height: 250px;
+        flex-grow: 0;
+        flex-basis: 250px;
+        margin: 0 auto;
+    }
+
+    img{
+        height: 80%;
+        width: 80%;
+        margin: 0 10%;
+    }
+
+    .rounded{
+        border-radius: 50%;
+    }
+    
+    /* Desktop queries */
+    @media (min-width: 976px) {
+
+    }
+}
