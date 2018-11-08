@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400");
-@import url(/home/erhuz/Sites/erhuz.github.io/scss/vendor/normalize.css);
-@import url(/home/erhuz/Sites/erhuz.github.io/scss/vendor/skeleton.css);
+@import url(/home/erhuz/Sites/erhuz.github.io/scss/vendor/_normalize.css);
+@import url(/home/erhuz/Sites/erhuz.github.io/scss/vendor/_skeleton.css);
 /* Mobile first queries */
 h1, h2, h3, h4, h5, h6, p, span, blockquote {
   font-family: 'Roboto', sans-serif;
