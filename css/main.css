@@ -24,11 +24,11 @@ header {
   color: #fff;
   background: linear-gradient(135deg, #bd68c1 0%, #6067bc 50%, #00afb5 100%);
   text-align: center;
-  padding: 20rem;
+  padding: 20px 0px;
 }
 
 header h1 {
-  font-size: 8rem;
+  font-size: 4rem;
   margin-bottom: 0;
 }
 
@@ -38,6 +38,18 @@ header p {
 }
 
 /* Desktop queries */
+@media (min-width: 976px) {
+  header {
+    padding: 200px;
+  }
+  header h1 {
+    font-size: 8rem;
+  }
+  header p {
+    font-size: 2rem;
+  }
+}
+
 /* Mobile first queries */
 /* Desktop queries */
 /*# sourceMappingURL=main.css.map */
