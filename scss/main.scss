@@ -2,12 +2,12 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
 
 // Import vendor styles
-@import 'vendor/normalize.css';
-@import 'vendor/skeleton.css';
+@import 'vendor/_normalize.css';
+@import 'vendor/_skeleton.css';
 
 // Import custom scss
 @import 'custom/_typography';
-@import 'custom/base';
+@import 'custom/_base';
 
 
 
