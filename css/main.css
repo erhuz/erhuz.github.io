@@ -1048,7 +1048,7 @@ main .flex-items-footer, footer .flex-items-footer {
 }
 
 main .text-left, footer .text-left {
-  text-align: start;
+  text-align: left;
 }
 
 main > div.container:first-child {
@@ -1076,13 +1076,13 @@ footer {
   header p {
     font-size: 3rem;
   }
-  main, footer .content {
+  main .container, footer .container {
     width: 976px;
     margin: 0 auto;
     padding: 20px;
   }
-  main .text-right, footer .content .text-right {
-    text-align: end;
+  main .container .text-right, footer .container .text-right {
+    text-align: right;
   }
 }
 

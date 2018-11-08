@@ -52,7 +52,7 @@ main, footer{
     }
 
     .text-left{
-        text-align: start;
+        text-align: left;
     }
 }
 
@@ -85,14 +85,16 @@ footer{
         }
     }
 
-    main, footer .content{
-        width: 976px;
-        margin: 0 auto;
-
-        padding: 20px;
-
-        .text-right{
-            text-align: end;
+    main, footer{
+        .container{
+            width: 976px;
+            margin: 0 auto;
+    
+            padding: 20px;
+    
+            .text-right{
+                text-align: right;
+            }
         }
     }
 }
