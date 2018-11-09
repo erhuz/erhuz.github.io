@@ -27,7 +27,7 @@
 
 
 /* Grid
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+––––––––––––––––––––––––––––––––––––––––––––––––––
 .container {
   position: relative;
   width: 100%;
@@ -41,14 +41,14 @@
   float: left;
   box-sizing: border-box; }
 
-/* For devices larger than 400px */
+
 @media (min-width: 400px) {
   .container {
     width: 85%;
     padding: 0; }
 }
 
-/* For devices larger than 550px */
+
 @media (min-width: 550px) {
   .container {
     width: 80%; }
@@ -78,7 +78,7 @@
 
   .one-half.column                { width: 48%; }
 
-  /* Offsets */
+  
   .offset-by-one.column,
   .offset-by-one.columns          { margin-left: 8.66666666667%; }
   .offset-by-two.column,
@@ -111,7 +111,7 @@
   .offset-by-one-half.columns     { margin-left: 52%; }
 
 }
-
+*/
 
 /* Base Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */

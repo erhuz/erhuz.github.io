@@ -18,6 +18,63 @@ main{
     .rounded{
         border-radius: 50%;
     }
+
+    .profiles{
+        background-color: #222;
+        color: #eee;
+
+        min-height: 300px;
+
+        .card-container{
+            display:flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-content: center;
+            align-items: center;
+        }
+
+        .card{
+            width: 220px;
+            height: 300px;
+            flex-grow: 0;
+            flex-shrink: 0;
+            flex-basis: 220px;
+
+            margin: 10px 20px;
+
+            color: #333;
+            background: #fff;
+            border: 3px solid #eee;
+            border-radius: 5px;
+            box-shadow: 2px 2px 6px 4px rgb(19, 19, 19);
+
+            transition: border .18s;
+
+            .img{
+                max-height: 200px;
+                overflow: hidden;
+                background-color: #fff;
+            }
+
+            img{
+                width: 100%;
+                height: initial;
+                margin: 0px;
+            }
+
+            h3{
+                margin-top: 25px;
+            }
+            
+
+        }
+
+        .card:hover{
+            border-left-width: 10px;
+            border-right-width: 10px;
+        }
+    }
     
     /* Desktop queries */
     @media (min-width: 976px) {
