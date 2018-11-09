@@ -920,10 +920,6 @@ body {
   background-color: #fcfcfc;
 }
 
-hr {
-  margin-top: 0;
-}
-
 a {
   text-decoration: none;
 }
@@ -1055,6 +1051,10 @@ main img {
 
 main .rounded {
   border-radius: 50%;
+}
+
+main .mt {
+  margin-top: 40px;
 }
 
 main .profiles {
