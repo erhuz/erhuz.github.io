@@ -1010,13 +1010,16 @@ footer {
 /* Desktop queries */
 @media (min-width: 976px) {
   header {
-    padding: 80px 0;
+    padding: 22vh 0;
   }
   header h1 {
     font-size: 8rem;
   }
   header p {
     font-size: 3rem;
+  }
+  main > div:nth-child(1) {
+    min-height: 30vh;
   }
   main .container, footer .container {
     width: 960px;
@@ -1092,7 +1095,7 @@ main .profiles .card {
   margin: 10px 20px;
   color: #333;
   background: #fff;
-  border: 3px solid #eee;
+  border: 5px solid #fff;
   border-radius: 5px;
   -webkit-box-shadow: 2px 2px 6px 4px #131313;
           box-shadow: 2px 2px 6px 4px #131313;
